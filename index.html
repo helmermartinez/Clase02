@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="/css/estilos.css">
+</head>
+<body>
+     <form action="">
+        <fieldset>
+        <legend>Datos Basicos</legend>
+        <label for="a">Nombre</label><br>
+        <input type="text" width="60"><br>
+        <br>
+        <label for="b">Descripcion</label><br>
+        <textarea name="Descripcion" id="text" cols="100" rows="20"></textarea><br>
+        <br>
+        <label for="c">Foto</label>
+        <input type="file" name="foto" id="foto"><br>
+        <br>
+        <input type="checkbox" name="check" id="box">
+        <label for="d">Añadir contador de visitas</label>
+        </fieldset>
+     </form>
+
+     <form action="">
+        <fieldset>
+        <legend>Datos Datos Economicos</legend>
+        <label for="a">Precio</label>
+        <input type="number" width="60">
+        <label for="a">&euro;</label>
+        <label for="b">Impuestos</label>
+        <select name="tax" id="tax">
+            <option value="4">4%</option>
+            <option value="7">7%</option>
+            <option value="16">16%</option>
+            <option value="25">25%</option>
+        </select>
+        <br>
+        <label for="c">Promocion</label><br>
+        <input type="radio" name="Ninguno" id="nin">
+        <label for="d">Ninguno</label><br>
+        <input type="radio" name="Trans" id="trans">
+        <label for="d">Transporte gratuito</label><br>
+        <input type="radio" name="Desc" id="desc">
+        <label for="d">Descuento 5%</label><br>
+
+        </fieldset>
+     </form>
+
+</body>
+</html>
